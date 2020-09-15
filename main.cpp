@@ -4,6 +4,7 @@
 #include "redheadduck.h"
 #include "decoyduck.h"
 #include "rubberduck.h"
+#include "modelduck.h"
 
 int main(int argc, char *argv[])
 {
@@ -31,6 +32,12 @@ int main(int argc, char *argv[])
     d4->display();
     d4->preformQuack();
     d4->preformFly();
+    cout<<"------------"<<endl;
+
+    Duck *d5 = new ModelDuck();
+    d5->display();
+    d5->preformQuack();
+    d5->preformFly();
     cout<<"------------"<<endl;
 
 
