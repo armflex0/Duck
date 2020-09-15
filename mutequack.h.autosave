@@ -1,0 +1,11 @@
+#ifndef MUTEQUACK_H
+#define MUTEQUACK_H
+#include "mutequack.h"
+
+class MuteQuack
+{
+public:
+    MuteQuack();
+};
+
+#endif // MUTEQUACK_H

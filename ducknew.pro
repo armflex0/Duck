@@ -20,7 +20,14 @@ SOURCES += \
     redheadduck.cpp \
     mallardduck.cpp \
     decoyduck.cpp \
-    rubberduck.cpp
+    rubberduck.cpp \
+    flybehavior.cpp \
+    flynoway.cpp \
+    flywithwings.cpp \
+    mutequack.cpp \
+    quack.cpp \
+    quackbehavior.cpp \
+    squeak.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -32,4 +39,11 @@ HEADERS += \
     redheadduck.h \
     mallardduck.h \
     decoyduck.h \
-    rubberduck.h
+    rubberduck.h \
+    flybehavior.h \
+    flynoway.h \
+    flywithwings.h \
+    mutequack.h \
+    quack.h \
+    quackbehavior.h \
+    squeak.h

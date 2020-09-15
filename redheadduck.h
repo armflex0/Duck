@@ -1,11 +1,12 @@
 #ifndef REDHEADDUCK_H
 #define REDHEADDUCK_H
+#include "duck.h"
 
-
-class RedheadDuck
+class RedHeadDuck : public Duck
 {
 public:
-    RedheadDuck();
+    RedHeadDuck();
+    virtual void display();
 };
 
 #endif // REDHEADDUCK_H
