@@ -27,9 +27,7 @@ SOURCES += \
     mutequack.cpp \
     quack.cpp \
     quackbehavior.cpp \
-    squeak.cpp \
-    modelduck.cpp \
-    flyrocketpowered.cpp
+    squeak.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -48,6 +46,4 @@ HEADERS += \
     mutequack.h \
     quack.h \
     quackbehavior.h \
-    squeak.h \
-    modelduck.h \
-    flyrocketpowered.h
+    squeak.h
