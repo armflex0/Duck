@@ -1,14 +1,11 @@
 #ifndef DECOYDUCK_H
 #define DECOYDUCK_H
 
-#include "duck.h"
 
-class DecoyDuck : public Duck
+class DecoyDuck
 {
 public:
     DecoyDuck();
-    virtual void display();
 };
-
 
 #endif // DECOYDUCK_H

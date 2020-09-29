@@ -1,13 +1,11 @@
 #ifndef RUBBERDUCK_H
 #define RUBBERDUCK_H
 
-#include "duck.h"
 
-class RubberDuck : public Duck
+class RubberDuck
 {
 public:
     RubberDuck();
-    virtual void display();
 };
 
 #endif // RUBBERDUCK_H
