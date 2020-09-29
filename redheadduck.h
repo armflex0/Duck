@@ -2,10 +2,10 @@
 #define REDHEADDUCK_H
 #include "duck.h"
 
-class RedheadDuck : public Duck
+class RedHeadDuck : public Duck
 {
 public:
-    RedheadDuck();
+    RedHeadDuck();
     virtual void display();
 };
 

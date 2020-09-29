@@ -4,6 +4,3 @@ MuteQuack::MuteQuack()
 {
 
 }
-void MuteQuack::quack(){
-    cout << "Silence"<< endl;
-}
